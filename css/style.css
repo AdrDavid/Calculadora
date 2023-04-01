@@ -20,16 +20,19 @@ body{
 
 .botao{
     border: 2px solid white;
-    width: 324px;
+    width: 290px;
     /* background-color: blue; */
-    /* display: flex;
+    display: flex;
     flex-wrap: wrap;
-    justify-content: space-between; */
+    justify-content: space-around;
+}
+.botao li{
+    display: flex;
 }
 
 .botao button{
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
     background-color: rgb(49, 48, 48);
     color: white;
     float: left;
@@ -41,15 +44,15 @@ body{
 }
 
 #zerar{
-    width: 160px !important;
+    width: 140px !important;
 }
 .zero{
     float: left;
-    width: 160px !important;
+    width: 140px !important;
 }
 .igual{
     float: right !important;
-    width: 160px !important;
+    width: 140px !important;
 }
 
 .visor{
